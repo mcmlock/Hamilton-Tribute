@@ -98,3 +98,17 @@ main img {
     border: 6px solid var(--secondary-color);
     border-radius: 5px;
 }
+
+footer {
+    width: 80%;
+    margin: 1.5em auto;
+    padding: .4em .2em;
+    font-size: 1.2em;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+footer p {
+    margin: .5em 0;
+    text-align: center;
+    font-weight: 600;
+}
