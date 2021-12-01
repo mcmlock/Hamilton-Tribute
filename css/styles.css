@@ -3,4 +3,31 @@
     --primary-color: #f6c049;
     --secondary-color: #a16526;
     --main-content-color: #404040;
+
+    background-color: var(--background-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    height: 4.8rem;
+}
+.subtitle {
+    position: relative;
+    bottom: 2.8rem;
+    width: 80%;
+    margin: auto;
+    padding: 3px 6px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
 }
